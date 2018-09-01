@@ -33,7 +33,8 @@ function makeInt(n) {
 }
 makeInt(2)
 
-function preserveDecimal(n) {
-  return parseFloat('n')
+function preserveDecimal(n, base) {
+  var parsed = parseInt(n, base);
+  if (isNaN(parsed)) { return 0 }
+  return parsed 
 }
-preserveDecimal(85.924329)
