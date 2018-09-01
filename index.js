@@ -3,6 +3,17 @@ function add(a, b) {
 }
 add(600, 99)
 
-subtract(a, b) {
-  
+function subtract(a, b) {
+  return a - b
 }
+subtract(200, 50)
+
+function multiply(a, b) {
+  return a * b
+}
+multiply(30, 4)
+
+function divide(a, b) {
+  return a / b
+}
+divide(40, 5)
