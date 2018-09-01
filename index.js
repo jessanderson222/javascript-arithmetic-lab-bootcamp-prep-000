@@ -19,6 +19,7 @@ function divide(a, b) {
 divide(40, 5)
 
 var n = 270
-function inc(n) {
+function inc() {
   n += 7
 }
+inc(n) 
