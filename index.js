@@ -17,3 +17,8 @@ function divide(a, b) {
   return a / b
 }
 divide(40, 5)
+
+var n = 10
+function inc(n) {
+  n += 2
+}
