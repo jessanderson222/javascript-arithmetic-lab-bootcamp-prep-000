@@ -20,6 +20,6 @@ divide(40, 5)
 
 var n = 270
 function inc() {
-  n += 7
+  n += 1
 }
 inc(n) 
