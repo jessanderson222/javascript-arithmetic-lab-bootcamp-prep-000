@@ -21,4 +21,4 @@ divide(40, 5)
 function inc(n) {
   return n += 1
 }
-inc(n) 
+inc(270) 
