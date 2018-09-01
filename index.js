@@ -30,7 +30,7 @@ inc(270)
 
 function makeInt(n, base) {
   var parsed = parseInt(n, 10);
-  if (isNaN(parsed)) {return 0}
+  if (isNaN(parsed)) {return NaN}
   return parsed
 }
 makeInt(2, base)
