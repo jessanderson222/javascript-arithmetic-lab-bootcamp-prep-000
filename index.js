@@ -28,6 +28,7 @@ function dec(n) {
 }
 inc(270) 
 
-function makeInt() {
-  return parseInt()
+function makeInt(n) {
+  return parseInt('n', 10)
 }
+makeInt(2)
