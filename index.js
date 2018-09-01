@@ -34,3 +34,10 @@ function makeInt(n, base) {
   return parsed
 }
 makeInt(2, base)
+
+function preserveDecimal(n) {
+  var float = parseFloat(n);
+  if (isNaN(float)) {return NaN}
+  return float
+}
+preserveDecimal(6.343453)
