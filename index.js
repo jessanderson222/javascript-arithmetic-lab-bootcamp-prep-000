@@ -18,7 +18,7 @@ function divide(a, b) {
 }
 divide(40, 5)
 
-var n = 10
+var n = 270
 function inc(n) {
-  n += 2
+  n += 7
 }
