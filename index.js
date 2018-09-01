@@ -28,14 +28,9 @@ function dec(n) {
 }
 inc(270) 
 
-function makeInt(n) {
-  return parseInt('n', 10)
+function makeInt(n, base) {
+  var parsed = parseInt(n, 10);
+  if (isNaN(parsed)) {return 0}
+  return parsed
 }
-makeInt(2)
-
-function preserveDecimal(n) {
-  var parsed = parseInt(n);
-  if (isNaN(parsed)) { return 0 }
-  return parsed 
-}
-preserveDecimal(48353.43)
+makeInt(2, base)
