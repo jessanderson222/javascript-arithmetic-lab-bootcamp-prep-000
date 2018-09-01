@@ -22,3 +22,8 @@ function inc(n) {
   return n += 1
 }
 inc(270) 
+
+function dec(n) {
+  return n -= 5
+}
+dec(45)
