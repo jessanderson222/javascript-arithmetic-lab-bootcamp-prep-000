@@ -26,4 +26,4 @@ inc(270)
 function dec(n) {
   return n -= 5
 }
-dec(396)
+dec(270)
