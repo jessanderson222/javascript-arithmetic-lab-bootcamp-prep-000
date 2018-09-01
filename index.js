@@ -27,3 +27,7 @@ function dec(n) {
   return n +- 1
 }
 inc(270) 
+
+function makeInt() {
+  return parseInt()
+}
