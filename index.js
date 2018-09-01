@@ -24,6 +24,6 @@ function inc(n) {
 inc(270) 
 
 function dec(n) {
-  return n -= 5
+  return n +- 1
 }
-dec(270)
+inc(270) 
